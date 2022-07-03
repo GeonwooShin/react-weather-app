@@ -12,3 +12,24 @@ body {
   height: 100vh;
   flex-direction: column;
 }
+
+.weather-box {
+  border: 1px solid grey;
+  border-radius: 8px;
+  background-color: white;
+  width: 300px;
+  height: 200px;
+  line-height: 100px;
+  margin-bottom: 10px;
+}
+
+.weather-box-city,
+.weather-box-temp,
+.weather-box-description {
+  font-weight: bold;
+  text-align: center;
+}
+
+.weather-btn {
+  margin: 2px;
+}
